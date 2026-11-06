@@ -65,6 +65,7 @@ Aanzetten met `/plugin install <naam>@barryos`.
 | terminal-browser | Browser in de terminal. Vereist een los programma via `curl \| bash`, stuurt standaard telemetrie (managed env zet `TERMINAL_BROWSER_NO_TELEMETRY=1`) en laat de agent sites bedienen waar je ingelogd bent. |
 | ui-ux-design-studio | Logo's, iconen, huisstijl (`design`, `brand`, `design-system`). Beeldgeneratie stuurt je prompt naar Gemini / Atlas Cloud / MuAPI en leest keys uit `~/.claude/.env`. Zet daar alleen die keys in. |
 | swift-lsp | Swift language server; alleen nuttig voor Swift-projecten. |
+| rea | Reverse engineering met agents (morluto/rea, npm `rea-agents@6.8.0`, MIT). Start een eigen MCP-server en kan lokale tools aansturen (debuggers, Ghidra, netwerk-capture via mitmproxy). Groot pakket (~52 MB). Geen telemetrie gevonden. Alleen gebruiken op software waarvoor je toestemming hebt. |
 | blast-radius | Mod: houdt riskante shell-commando's tegen. In onderzoek. |
 | cache-tax | Mod: prompt-cache-kosten; autoWarm standaard uit. In onderzoek. |
 | savvy-progress | Mod: voortgangsbalk + agents-paneel. In onderzoek. |

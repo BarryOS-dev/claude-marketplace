@@ -75,6 +75,17 @@
       "defaultEnabled": false
     },
     {
+      "name": "rea",
+      "source": {
+        "source": "npm",
+        "package": "rea-agents",
+        "version": "6.8.0"
+      },
+      "description": "Reverse engineering with agents (MCP server + skill): app behavior, JS bundles, Android, native binaries. Opt-in; heavy (~52 MB), uses local tools like Ghidra/LLDB/mitmproxy when present.",
+      "category": "development",
+      "defaultEnabled": false
+    },
+    {
       "name": "skins",
       "source": {
         "source": "github",
