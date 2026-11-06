@@ -121,7 +121,7 @@ claude plugin install barryos-kit@barryos
 Het setup-script van de cloud-omgeving (claude.ai → Admin → Cloud environments) installeert het pakket:
 
 ```bash
-claude plugin marketplace add https://github.com/BarryOS-dev/claude-marketplace.git || true
+claude plugin marketplace add BarryOS-dev/claude-marketplace || true   # zelfde vorm als in managed settings, anders genegeerd
 claude plugin install barryos-kit@barryos --scope user -y || true
 ```
 
