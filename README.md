@@ -67,11 +67,6 @@ Aanzetten met `/plugin install <naam>@barryos`.
 | swift-lsp | Swift language server; alleen nuttig voor Swift-projecten. |
 | rea | Reverse engineering met agents (morluto/rea, npm `rea-agents@6.8.0`, MIT). Start een eigen MCP-server en kan lokale tools aansturen (debuggers, Ghidra, netwerk-capture via mitmproxy). Groot pakket (~52 MB). Geen telemetrie gevonden. Alleen gebruiken op software waarvoor je toestemming hebt. |
 | blast-radius | Mod: houdt riskante shell-commando's tegen. In onderzoek. |
-| cache-tax | Mod: prompt-cache-kosten; autoWarm standaard uit. In onderzoek. |
-| savvy-progress | Mod: voortgangsbalk + agents-paneel. In onderzoek. |
-| skins | Mod: thema's en tool-kaarten (`/skin`), zonder hun mod-store. In onderzoek. |
-| filetree | Mod: bestandsboom; "Follow work" standaard uit. In onderzoek. |
-| replay-theater | Mod: bekijk bewerkingen van de laatste beurt. In onderzoek. |
 
 ### Bewust niet opgenomen
 

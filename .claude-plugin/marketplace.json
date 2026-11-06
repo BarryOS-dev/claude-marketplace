@@ -38,23 +38,6 @@
       "category": "code-quality"
     },
     {
-      "name": "cache-tax",
-      "source": "./plugins/cache-tax",
-      "description": "Prompt-cache cost awareness. Auto keepwarm OFF by default (use /keepwarm).",
-      "category": "cost"
-    },
-    {
-      "name": "savvy-progress",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/JohnnyVizz/claude-kit.git",
-        "path": "plugins/savvy-progress",
-        "sha": "c871c153ead54ad9547cc717d0f3e5a676c73986"
-      },
-      "description": "Progress bar and live agents panel.",
-      "category": "cost"
-    },
-    {
       "name": "ui-ux-pro-max",
       "source": "./plugins/ui-ux-pro-max",
       "description": "UI/UX design intelligence: styles, palettes, typography, UX rules (local only).",
@@ -84,33 +67,6 @@
       "description": "Reverse engineering with agents (MCP server + skill): app behavior, JS bundles, Android, native binaries. Opt-in; heavy (~52 MB), uses local tools like Ghidra/LLDB/mitmproxy when present.",
       "category": "development",
       "defaultEnabled": false
-    },
-    {
-      "name": "skins",
-      "source": {
-        "source": "github",
-        "repo": "hellosverre/claude-skins",
-        "sha": "cf0d39f3785d5c5a4b6189ecc487b1ac479efea0"
-      },
-      "description": "Themes, tool-row icons, diff and chart cards. /skin to switch.",
-      "category": "ui"
-    },
-    {
-      "name": "filetree",
-      "source": "./plugins/filetree",
-      "description": "File tree panel. 'Follow work' OFF by default.",
-      "category": "ui"
-    },
-    {
-      "name": "replay-theater",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/claude-code-playground.git",
-        "path": "claude-code/mods/replay-theater",
-        "sha": "569c5283d9a0a7ee7938df85bb32e4f48cbb8c86"
-      },
-      "description": "Step through last turn's file edits.",
-      "category": "ui"
     },
     {
       "name": "terminal-browser",
