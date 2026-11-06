@@ -1,0 +1,7 @@
+{
+  "name": "ui-ux-design-studio",
+  "version": "1.0.0",
+  "description": "OPT-IN. Logo, icon and corporate-identity generation plus brand and design-token skills (design, brand, design-system), vendored from nextlevelbuilder/ui-ux-pro-max-skill@b7d5353. Image generation sends your prompt to Gemini, Atlas Cloud or MuAPI and needs an API key in ~/.claude/.env.",
+  "author": { "name": "Next Level Builder / claudekit", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" },
+  "license": "MIT"
+}

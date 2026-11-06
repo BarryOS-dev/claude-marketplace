@@ -1,0 +1,7 @@
+{
+  "name": "ui-ux-pro-max",
+  "version": "1.0.0",
+  "description": "UI/UX design intelligence (styles, palettes, typography, UX rules) via local search scripts. Core skill only, vendored from nextlevelbuilder/ui-ux-pro-max-skill@b7d5353; the bundled claudekit extras (design, ui-styling, brand, slides, banner-design, design-system) are left out to avoid overlap with frontend-design/impeccable and outbound AI calls.",
+  "author": { "name": "Next Level Builder", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" },
+  "license": "MIT"
+}

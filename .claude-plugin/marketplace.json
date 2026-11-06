@@ -1,0 +1,263 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "barryos",
+  "owner": {
+    "name": "BarryOS"
+  },
+  "metadata": {
+    "description": "Reviewed, pinned Claude Code plugins, skills and mods for BarryOS. Every external entry is pinned to the exact commit that was reviewed. See README.md."
+  },
+  "plugins": [
+    {
+      "name": "barryos-kit",
+      "source": "./plugins/barryos-kit",
+      "description": "Het BarryOS-pakket: installeert alle goedgekeurde plugins uit deze marketplace in één keer.",
+      "category": "bundle"
+    },
+    {
+      "name": "ponytail-skills",
+      "source": "./plugins/ponytail-skills",
+      "description": "Lazy senior dev skills: reuse first, smallest change that works.",
+      "category": "code-quality"
+    },
+    {
+      "name": "thermonuclear-review",
+      "source": "./plugins/thermonuclear-review",
+      "description": "Strict structural code-quality review.",
+      "category": "code-quality"
+    },
+    {
+      "name": "blast-radius",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-code-playground.git",
+        "path": "claude-code/mods/blast-radius",
+        "sha": "569c5283d9a0a7ee7938df85bb32e4f48cbb8c86"
+      },
+      "description": "Holds risky shell commands and shows what they would change. A safety net, not a security boundary.",
+      "category": "code-quality"
+    },
+    {
+      "name": "cache-tax",
+      "source": "./plugins/cache-tax",
+      "description": "Prompt-cache cost awareness. Auto keepwarm OFF by default (use /keepwarm).",
+      "category": "cost"
+    },
+    {
+      "name": "savvy-progress",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JohnnyVizz/claude-kit.git",
+        "path": "plugins/savvy-progress",
+        "sha": "c871c153ead54ad9547cc717d0f3e5a676c73986"
+      },
+      "description": "Progress bar and live agents panel.",
+      "category": "cost"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": "./plugins/ui-ux-pro-max",
+      "description": "UI/UX design intelligence: styles, palettes, typography, UX rules (local only).",
+      "category": "design"
+    },
+    {
+      "name": "ui-ux-design-studio",
+      "source": "./plugins/ui-ux-design-studio",
+      "description": "OPT-IN: logo/icon/brand generation via external AI image services (needs your own API key).",
+      "category": "design",
+      "defaultEnabled": false
+    },
+    {
+      "name": "graphify",
+      "source": "./plugins/graphify",
+      "description": "Codebase knowledge graph (opt-in per project; needs uv tool install 'graphifyy==0.9.103').",
+      "category": "cost",
+      "defaultEnabled": false
+    },
+    {
+      "name": "skins",
+      "source": {
+        "source": "github",
+        "repo": "hellosverre/claude-skins",
+        "sha": "cf0d39f3785d5c5a4b6189ecc487b1ac479efea0"
+      },
+      "description": "Themes, tool-row icons, diff and chart cards. /skin to switch.",
+      "category": "ui"
+    },
+    {
+      "name": "filetree",
+      "source": "./plugins/filetree",
+      "description": "File tree panel. 'Follow work' OFF by default.",
+      "category": "ui"
+    },
+    {
+      "name": "replay-theater",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-code-playground.git",
+        "path": "claude-code/mods/replay-theater",
+        "sha": "569c5283d9a0a7ee7938df85bb32e4f48cbb8c86"
+      },
+      "description": "Step through last turn's file edits.",
+      "category": "ui"
+    },
+    {
+      "name": "terminal-browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zenbu-labs/terminal-browser.git",
+        "path": "claude-code-plugin",
+        "sha": "d02e800ffca9e815a7c1d4b57d29fa79c5ce6329"
+      },
+      "description": "OPT-IN ONLY. In-terminal browser. Needs an external binary (curl|bash), sends telemetry by default. Set TERMINAL_BROWSER_NO_TELEMETRY=1.",
+      "category": "ui",
+      "defaultEnabled": false
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
+      },
+      "description": "Workflow skills: brainstorming, plans, TDD, debugging, code review.",
+      "category": "workflow"
+    },
+    {
+      "name": "code-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-review",
+        "sha": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+      },
+      "description": "Anthropic: PR code review.",
+      "category": "workflow"
+    },
+    {
+      "name": "code-simplifier",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-simplifier",
+        "sha": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+      },
+      "description": "Anthropic: simplify recently changed code.",
+      "category": "workflow"
+    },
+    {
+      "name": "security-guidance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/security-guidance",
+        "sha": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+      },
+      "description": "Anthropic: security guidance while editing.",
+      "category": "workflow"
+    },
+    {
+      "name": "security-scan",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/claude-security",
+        "sha": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+      },
+      "description": "Anthropic Claude Security scanner (plugin id claude-security).",
+      "category": "workflow"
+    },
+    {
+      "name": "skill-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/skill-creator",
+        "sha": "1aa4a4b10e6c5e8694d0f72a03dbac4e93bcafd8"
+      },
+      "description": "Anthropic: create and evaluate skills.",
+      "category": "workflow"
+    },
+    {
+      "name": "caveman",
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman",
+        "sha": "25d22f864ad68cc447a4cb93aefde918aa4aec9f"
+      },
+      "description": "Terse replies, fewer output tokens.",
+      "category": "tokens"
+    },
+    {
+      "name": "context-mode",
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode",
+        "sha": "6f6a61c1ffc846dec5df18a3631571296a03df2d"
+      },
+      "description": "Keeps large tool output out of the context window.",
+      "category": "tokens"
+    },
+    {
+      "name": "mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thedotmack/claude-mem.git",
+        "path": "plugin",
+        "sha": "96ad0e23b4e1a3c976b2f836d2190626b55079f2"
+      },
+      "description": "Persistent memory across sessions (plugin id claude-mem).",
+      "category": "tokens"
+    },
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/frontend-design",
+        "sha": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+      },
+      "description": "Anthropic: distinctive frontend design guidance.",
+      "category": "design"
+    },
+    {
+      "name": "impeccable",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pbakaus/impeccable.git",
+        "path": "plugin",
+        "sha": "f88b2837a7d7c3182e46307bbbb091a1ed547571"
+      },
+      "description": "Design critique, polish and UI quality.",
+      "category": "design"
+    },
+    {
+      "name": "dev-skills",
+      "source": "./plugins/dev-skills",
+      "description": "All 12 BarryOS project skills: Vercel React/composition/view-transitions, web design guidelines, design critique, landing pages, taste, image-to-code, Playwright, Supabase, skillui.",
+      "category": "design"
+    },
+    {
+      "name": "vercel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vercel/vercel-plugin.git",
+        "sha": "882e66c2698689324c341b7bb8fd8beb92c27bf6"
+      },
+      "description": "Vercel platform skills and tools.",
+      "category": "platform"
+    },
+    {
+      "name": "swift-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/swift-lsp",
+        "sha": "a2e251d9b97b909bf728b3e84fc8d17e6aba0063"
+      },
+      "description": "OPT-IN: Swift language server.",
+      "category": "platform",
+      "defaultEnabled": false
+    }
+  ]
+}

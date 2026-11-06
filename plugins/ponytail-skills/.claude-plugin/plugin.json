@@ -1,0 +1,7 @@
+{
+  "name": "ponytail-skills",
+  "version": "5.3.3",
+  "description": "Ponytail's 'lazy senior dev' skills only (YAGNI, reuse first, smallest working change). Vendored from DietrichGebert/ponytail@96608e0 without its hooks, band module or transcript import.",
+  "author": { "name": "Dietrich Gebert", "url": "https://github.com/DietrichGebert" },
+  "license": "MIT"
+}

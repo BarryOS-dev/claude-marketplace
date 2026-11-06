@@ -1,0 +1,7 @@
+{
+  "name": "thermonuclear-review",
+  "version": "1.0.0",
+  "description": "Extremely strict structural code-quality review skill. Generalised from jaredpalmer/kev@2074cc4.",
+  "author": { "name": "Jared Palmer (adapted by BarryOS)", "url": "https://github.com/jaredpalmer/kev" },
+  "license": "Apache-2.0"
+}

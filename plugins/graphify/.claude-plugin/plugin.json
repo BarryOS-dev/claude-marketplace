@@ -1,0 +1,7 @@
+{
+  "name": "graphify",
+  "version": "0.9.103",
+  "description": "Graphify skill: turn a codebase into a queryable knowledge graph. Pinned to graphifyy==0.9.103, no auto-upgrade, no external LLM providers. Requires: uv tool install 'graphifyy==0.9.103'.",
+  "author": { "name": "Graphify Labs" },
+  "license": "Apache-2.0"
+}

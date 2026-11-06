@@ -1,0 +1,8 @@
+{
+  "name": "dev-skills",
+  "version": "2.0.0",
+  "description": "All project skills formerly in BarryOS-dev/webapp/.agents/skills (12): vercel-react-best-practices, vercel-composition-patterns, vercel-react-view-transitions, web-design-guidelines (vercel-labs/agent-skills), design-critique (anthropics/knowledge-work-plugins), landing-page-design (inference-sh/skills), design-taste-frontend, image-to-code (Leonxlnx/taste-skill), playwright-cli (microsoft/playwright-cli), supabase, supabase-postgres-best-practices (supabase/agent-skills), skillui. Copied from webapp@staging; auto-approved tools removed from skillui and landing-page-design, web-design-guidelines pinned to a commit.",
+  "author": {
+    "name": "BarryOS (vendored)"
+  }
+}

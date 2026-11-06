@@ -1,0 +1,22 @@
+{
+  "name": "cache-tax",
+  "version": "2.4.0",
+  "description": "A Claude Code mod that keeps the one-hour prompt cache warm during breaks and asks before a cold send, showing its estimated rewrite cost. Warming uses model requests and costs tokens. Requires Claude Code 2.1.287+.",
+  "author": {
+    "name": "Karan Bansal"
+  },
+  "license": "MIT",
+  "userConfig": {
+    "autoWarm": {
+      "type": "string",
+      "title": "Auto keepwarm",
+      "description": "on: after you pay a cold cache write, keepwarm arms itself for three hours (the default). off: keepwarm only runs when you arm it with /keepwarm.",
+      "default": "off",
+      "options": [
+        "on",
+        "off"
+      ]
+    }
+  },
+  "types": "./types/index.d.ts"
+}

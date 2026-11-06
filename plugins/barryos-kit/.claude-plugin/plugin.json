@@ -1,0 +1,32 @@
+{
+  "name": "barryos-kit",
+  "version": "1.2.0",
+  "description": "BarryOS bundle. Enabling this one plugin installs every reviewed plugin in the barryos marketplace. Graphify and terminal-browser stay opt-in.",
+  "author": {
+    "name": "BarryOS"
+  },
+  "dependencies": [
+    "ponytail-skills",
+    "thermonuclear-review",
+    "blast-radius",
+    "cache-tax",
+    "savvy-progress",
+    "skins",
+    "filetree",
+    "replay-theater",
+    "ui-ux-pro-max",
+    "superpowers",
+    "code-review",
+    "code-simplifier",
+    "security-guidance",
+    "security-scan",
+    "skill-creator",
+    "caveman",
+    "context-mode",
+    "mem",
+    "frontend-design",
+    "impeccable",
+    "dev-skills",
+    "vercel"
+  ]
+}
