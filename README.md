@@ -17,7 +17,7 @@ en zet één plugin aan: **`barryos-kit@barryos`**. Die installeert de rest auto
 claude.ai admin-console  ──►  extraKnownMarketplaces: barryos  ──►  deze repo
 (managed settings)            enabledPlugins: barryos-kit@barryos        │
                                                                          ▼
-                                              barryos-kit  ──dependencies──►  22 plugins
+                                              barryos-kit  ──dependencies──►  16 plugins
 ```
 
 `barryos-kit` bevat zelf niets; het is een lijst `dependencies`. Claude Code installeert en activeert
@@ -40,21 +40,15 @@ die automatisch. Opt-in plugins staan wel in de marketplace maar niet in die lij
 | skill-creator | Skills maken en testen | anthropics/claude-plugins-official@1aa4a4b | Anthropic |
 | ponytail-skills | "Luie senior dev": hergebruik eerst, kleinste wijziging | DietrichGebert/ponytail@96608e0 | ✅ alleen skills, zonder hooks |
 | thermonuclear-review | Strenge structurele code-review | jaredpalmer/kev@2074cc4 | ✅ algemeen gemaakt |
-| blast-radius | Houdt riskante shell-commando's tegen ter bevestiging | anthropics/claude-code-playground@569c528 | ✅ |
 | **Tokens, kosten & geheugen** ||||
 | caveman | Korte antwoorden, minder output-tokens | JuliusBrussee/caveman@25d22f8 | al in gebruik |
 | context-mode | Houdt grote tool-output buiten de context | mksglu/context-mode@6f6a61c | al in gebruik |
 | mem | Geheugen tussen sessies (plugin-id `claude-mem`) | thedotmack/claude-mem@96ad0e2 | al in gebruik |
-| cache-tax | Prompt-cache-kosten; autoWarm standaard **uit** | karanb192/cache-tax@dfe380c | ✅ |
-| savvy-progress | Voortgangsbalk + agents-paneel | JohnnyVizz/claude-kit@c871c15 | ✅ |
 | **Design & UI** ||||
 | frontend-design | Ontwerprichtlijnen frontend | anthropics/claude-plugins-official@f8c5e7a | Anthropic |
 | impeccable | Design-kritiek en polish | pbakaus/impeccable@f88b283 | al in gebruik |
 | ui-ux-pro-max | Stijlen, paletten, typografie (lokaal) | nextlevelbuilder/ui-ux-pro-max-skill@b7d5353 | ✅ alleen kern-skill |
 | dev-skills | Alle 12 project-skills uit webapp: vercel-react-best-practices, vercel-composition-patterns, vercel-react-view-transitions, web-design-guidelines, design-critique, landing-page-design, design-taste-frontend, image-to-code, playwright-cli, supabase, supabase-postgres-best-practices, skillui | vercel-labs/agent-skills, anthropics/knowledge-work-plugins, inference-sh/skills, Leonxlnx/taste-skill, microsoft/playwright-cli, supabase/agent-skills | al in gebruik; skillui en landing-page-design zonder automatische toestemming, web-design-guidelines vast op commit |
-| skins | Thema's en tool-kaarten (`/skin`) | hellosverre/claude-skins@cf0d39f | ✅ zonder hun mod-store |
-| filetree | Bestandsboom; "Follow work" standaard **uit** | data-goblin/claude-code-filetree@2b42d0f | ✅ |
-| replay-theater | Bekijk de bewerkingen van de laatste beurt | anthropics/claude-code-playground@569c528 | ✅ |
 | **Platform** ||||
 | vercel | Vercel-skills en tools | vercel/vercel-plugin@882e66c | al in gebruik |
 
@@ -71,6 +65,12 @@ Aanzetten met `/plugin install <naam>@barryos`.
 | terminal-browser | Browser in de terminal. Vereist een los programma via `curl \| bash`, stuurt standaard telemetrie (managed env zet `TERMINAL_BROWSER_NO_TELEMETRY=1`) en laat de agent sites bedienen waar je ingelogd bent. |
 | ui-ux-design-studio | Logo's, iconen, huisstijl (`design`, `brand`, `design-system`). Beeldgeneratie stuurt je prompt naar Gemini / Atlas Cloud / MuAPI en leest keys uit `~/.claude/.env`. Zet daar alleen die keys in. |
 | swift-lsp | Swift language server; alleen nuttig voor Swift-projecten. |
+| blast-radius | Mod: houdt riskante shell-commando's tegen. In onderzoek. |
+| cache-tax | Mod: prompt-cache-kosten; autoWarm standaard uit. In onderzoek. |
+| savvy-progress | Mod: voortgangsbalk + agents-paneel. In onderzoek. |
+| skins | Mod: thema's en tool-kaarten (`/skin`), zonder hun mod-store. In onderzoek. |
+| filetree | Mod: bestandsboom; "Follow work" standaard uit. In onderzoek. |
+| replay-theater | Mod: bekijk bewerkingen van de laatste beurt. In onderzoek. |
 
 ### Bewust niet opgenomen
 
