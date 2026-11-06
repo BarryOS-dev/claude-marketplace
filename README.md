@@ -1,6 +1,6 @@
-# BarryOS Claude Code marketplace
+# Claude Code Marketplace
 
-Eén plek voor alle Claude Code-plugins, skills en mods die we bij BarryOS gebruiken.
+Eén plek voor alle Claude Code-plugins
 Elke omgeving (laptop, Claude Code in de cloud, eigen container, CI) verwijst alleen naar deze repo
 en zet één plugin aan: **`barryos-kit@barryos`**. Die installeert de rest automatisch.
 
